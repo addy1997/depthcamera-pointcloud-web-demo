@@ -201,6 +201,8 @@ async function main() {
     var gl, program, textures;
     try {
         var canvasElement = document.getElementById("webglcanvas");
+        canvasElement.width = window.innerWidth;
+        canvasElement.height = window.innerheight;
         canvasElement.onmousedown = handleMouseDown;
         document.onmouseup = handleMouseUp;
         document.onmousemove = handleMouseMove;
