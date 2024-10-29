@@ -26,15 +26,15 @@ var pitch = 0;
 
 // Use this for displaying errors to the user. More details should be put into
 // `console.error` messages.
-/*function showErrorToUser(message) {
+function showErrorToUser(message) {
     var div = document.getElementById("errormessages");
     div.innerHTML += message + "</br>";
-}*/
+}
 
-/*function handleError(error) {
+function handleError(error) {
     console.error(error);
     showErrorToUser(error.name ? (error.name + ": " + error.message) : error);
-}*/
+}
 
 function handleMouseDown(event) {
     mouseDown = true;
