@@ -31,10 +31,10 @@ function showErrorToUser(message) {
     div.innerHTML += message + "</br>";
 }
 
-function handleError(error) {
+/*function handleError(error) {
     console.error(error);
     showErrorToUser(error.name ? (error.name + ": " + error.message) : error);
-}
+}*/
 
 function handleMouseDown(event) {
     mouseDown = true;
