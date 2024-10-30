@@ -164,7 +164,7 @@
       INVERSE_BROWN_CONRADY: 2,
     };
 
-    function throwUnsupportedSizeError() {
+    function throwUnsupportedSizeError(width, height) {
       const error = new Error("Depth intrinsics for size " + width + "x" +
                                height + " are not available.");
       error.name = "UnsupportedSizeError";
@@ -187,7 +187,7 @@
               focalLength: [447.320953369140625, 447.320953369140625],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         colorOffset: new Float32Array(
@@ -225,7 +225,7 @@
               focalLength: [475.900726318359375, 475.900726318359375],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         getColorIntrinsics: function(width, height) {
@@ -245,7 +245,7 @@
               focalLength: [1389.71447753906, 1389.71472167969],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         colorOffset: new Float32Array(
@@ -281,7 +281,7 @@
               focalLength: [474.499542236328, 474.499420166016],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         getColorIntrinsics: function(width, height) {
@@ -301,7 +301,7 @@
               focalLength: [1391.03869628906, 1391.03894042969],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         colorOffset: new Float32Array(
@@ -348,7 +348,7 @@
               focalLength: [445.920288, 445.920288],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         colorOffset: new Float32Array(
@@ -389,7 +389,7 @@
               focalLength: [964.713439941406, 964.713439941406],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         getColorIntrinsics: function(width, height) {
@@ -409,7 +409,7 @@
               focalLength: [1389.28454589844, 1389.71447753906],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         colorOffset: new Float32Array(
@@ -450,7 +450,7 @@
               focalLength: [636.503356933594, 636.503356933594],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         getColorIntrinsics: function(width, height) {
@@ -470,7 +470,7 @@
               focalLength: [1387.93981933594, 1388.53649902344],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         colorOffset: new Float32Array(
@@ -511,7 +511,7 @@
               focalLength: [639.954223632812, 639.954223632812],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         getColorIntrinsics: function(width, height) {
@@ -526,7 +526,7 @@
               focalLength: [919.932373046875, 919.810852050781],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         colorOffset: new Float32Array(
@@ -562,7 +562,7 @@
               focalLength: [402.60308837890625, 402.60308837890625],
             };
           } else {
-            throwUnsupportedSizeError();
+            throwUnsupportedSizeError(width, height);
           }
         },
         colorOffset: new Float32Array(
