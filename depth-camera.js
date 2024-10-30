@@ -281,7 +281,7 @@
               focalLength: [474.499542236328, 474.499420166016],
             };
           } else {
-            throwUnsupportedSizeError(width, height);
+            throwUnsupportedSizeError();
           }
         },
         getColorIntrinsics: function(width, height) {
@@ -450,7 +450,7 @@
               focalLength: [636.503356933594, 636.503356933594],
             };
           } else {
-            throwUnsupportedSizeError(width, height);
+            throwUnsupportedSizeError();
           }
         },
         getColorIntrinsics: function(width, height) {
