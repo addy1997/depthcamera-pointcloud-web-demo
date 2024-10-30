@@ -195,7 +195,7 @@ function uploadCameraParameters(gl, program, parameters, width, height) {
     gl.uniformMatrix4fv(shaderVar, false, parameters.depthToColor);
 }
 
-/*async function main() {
+async function main() {
     "use strict";
 
     var gl, program, textures;
@@ -310,4 +310,4 @@ function uploadCameraParameters(gl, program, parameters, width, height) {
         window.requestAnimationFrame(animate);
     };
     animate();
-}*/
+}
